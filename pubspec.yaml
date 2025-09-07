@@ -1,0 +1,24 @@
+name: my_pump_app
+description: Pump selection mobile app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/pumps.xlsx
+
+  fonts:
+    - family: Dana
+      fonts:
+        - asset: assets/fonts/Dana-Regular.ttf
+        - asset: assets/fonts/Dana-Bold.ttf
+          weight: 700
